@@ -11,13 +11,18 @@
     "noImplicitAny": true,
     "resolveJsonModule": true
   },
-  "references": [
-    {
-      "path": "./tsconfig.spec.json"
-    }
-  ],
+  // "references": [
+  //   {
+  //     "path": "./tsconfig.spec.json"
+  //   }
+  // ],
   "exclude": [
     "node_modules",
+    "**/*.test.ts",
     "**/*.spec.ts"
+  ],
+  "include": [
+    "./src/**/*",
+    "./types/**/*"
   ]
 }
