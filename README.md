@@ -2,7 +2,6 @@
 
 [![npm version](https://badge.fury.io/js/@isdk%2Fglob.svg)](https://badge.fury.io/js/@isdk%2Fglob)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![CI](https://github.com/isdk/glob.js/actions/workflows/ci.yml/badge.svg)](https://github.com/isdk/glob.js/actions/workflows/ci.yml)
 
 `@isdk/glob` is a library that provides a simple and efficient way to match strings against glob patterns. It supports both whitelist and blacklist patterns, with blacklist patterns taking precedence.
 
