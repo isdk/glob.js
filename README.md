@@ -1,6 +1,6 @@
 # @isdk/glob
 
-[![npm version](https://badge.fury.io/js/@.svg)](https://badge.fury.io/js/@isdk/glob)
+[![npm version](https://badge.fury.io/js/@isdk%2Fglob.svg)](https://badge.fury.io/js/@isdk%2Fglob)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![CI](https://github.com/isdk/glob.js/actions/workflows/ci.yml/badge.svg)](https://github.com/isdk/glob.js/actions/workflows/ci.yml)
 
