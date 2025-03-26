@@ -59,12 +59,8 @@
     "plugins"
   ],
   "keywords": [
-    "ai",
-    "ai-tool",
-    "tool",
-    "store",
-    "database",
-    "sqlite3"
+    "string",
+    "glob"
   ],
   "maintainers": [
     "Riceball LEE <snowyu.lee@gmail.com>"
