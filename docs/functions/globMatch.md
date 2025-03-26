@@ -8,7 +8,7 @@
 
 > **globMatch**(`value`, `pattern`): `undefined` \| `boolean`
 
-Defined in: [glob-match.ts:23](https://github.com/isdk/glob.js/blob/b5bef7f9a60dd426f3ec3ba937982185dae68bf8/src/glob-match.ts#L23)
+Defined in: [glob-match.ts:23](https://github.com/isdk/glob.js/blob/9ddd9b1ed7b1d604684e5e49dc3b69945e6fdf8c/src/glob-match.ts#L23)
 
 Checks if a given string matches the specified pattern(s).
 Blacklist patterns take precedence over whitelist patterns.
