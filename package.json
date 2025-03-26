@@ -1,5 +1,6 @@
 {
   "name": "@isdk/glob",
+  "description": "a library that provides a simple and efficient way to match string against glob patterns.",
   "version": "0.1.0",
   "author": "Riceball LEE <snowyu.lee@gmail.com>",
   "main": "./dist/index.js",
