@@ -51,7 +51,8 @@ describe('globMatch', () => {
   });
 
   it('should handle complex patterns', () => {
-    expect(globMatch('src/index.ts', ['src/**/*', '!src/test/**/*'])).toBe(true);
+    expect(globMatch('src/index.ts', ['src/**/*.(t|j)s', '!src/test/**/*'])).toBe(true);
+    expect(globMatch('src/index.js', ['src/**/*.(t|j)s', '!src/test/**/*'])).toBe(true);
     expect(globMatch('src/test/index.ts', ['src/**/*', '!src/test/**/*'])).toBe(false);
   });
 
