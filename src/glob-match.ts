@@ -10,7 +10,7 @@ import picomatch from 'picomatch/posix.js';
  *
  * @param value - The string to be matched.
  * @param pattern - A single pattern string or an array of pattern strings.
- * @returns Returns `true` if the string matches any of the whitelist patterns and does not match any blacklist patterns, otherwise returns `false`.
+ * @returns Returns `true` if the string matches any of the whitelist patterns and does not match any blacklist patterns, otherwise if match any blacklist patterns returns `false`.
  *
  * @example
  * // Returns true
