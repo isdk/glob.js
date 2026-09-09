@@ -30,28 +30,29 @@
     "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix",
     "test": "vitest run",
-    "release": "pnpm run clean && pnpm run build && pnpm test && git add -f docs && git ci -m 'docs: update API docs' && pnpm dlx commit-and-tag-version -s",
+    "release": "pnpm run clean && pnpm run build && pnpm test && git add -f docs && git ci -m 'docs: update API docs' && npx commit-and-tag-version -s",
     "release.alpha": "pnpm run release -- --prerelease alpha"
   },
   "dependencies": {
-    "picomatch": "^4.0.3"
+    "picomatch": "^4.0.7"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.4.3",
-    "@types/picomatch": "^4.0.2",
-    "@typescript-eslint/eslint-plugin": "^8.55.0",
-    "eslint": "10.0.0",
+    "@antfu/eslint-config": "^9.5.1",
+    "@types/node": "^26.5.0",
+    "@types/picomatch": "^4.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "eslint": "10.10.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-tsdoc": "^0.5.0",
-    "prettier": "^3.8.1",
-    "terser": "^5.46.0",
+    "eslint-plugin-tsdoc": "^0.5.2",
+    "prettier": "^3.9.6",
+    "terser": "^5.51.2",
     "tsup": "^8.5.1",
-    "type-fest": "^5.4.4",
-    "typedoc": "^0.28.16",
-    "typedoc-plugin-markdown": "^4.10.0",
+    "type-fest": "^5.9.0",
+    "typedoc": "^0.28.20",
+    "typedoc-plugin-markdown": "^4.13.0",
     "typescript": "^5.7.3",
-    "vite": "^7.3.1",
-    "vitest": "^4.0.18"
+    "vite": "^8.2.2",
+    "vitest": "^5.0.0"
   },
   "files": [
     "docs",

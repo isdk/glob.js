@@ -3,6 +3,8 @@ import { defineConfig } from 'tsup'
 export default defineConfig({
   entry: ['src/index.ts'],
   format: ['cjs', 'esm'],
+    // Use the release config so test files are not typechecked/bundled
+    tsconfig: 'tsconfig.build.json',
   shims: true,
   // splitting: true,
   // sourcemap: true,
